@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(-60deg, #ff9768, #9156e1 100%);
+    font-family: 'montserrat', sans-serif;
+    /*background-image: url('bg.jpg');*/
+    background-size: cover;
+    background-position: top center;
+}
+.app-wrap {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6));
+}
+.calculator {
+    margin: 169px auto;
+    width: 368px;
+    height: 600px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.75);
+}
+.header {
+    height: 100px;
+    padding-top: 37px;
+    padding-bottom: 27px;
+    padding-right: 29px;
+    padding-left: 29px;
+    background-color: #212121;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.res {
+    height: 85px;
+    padding-top: 37px;
+    padding-bottom: 27px;
+    padding-right: 9px;
+    padding-left: 29px;
+    background-color: #212121;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.rad {
+    height: 50px;
+    padding-top: 17px;
+    padding-bottom: 7px;
+    padding-right: 19px;
+    padding-left: 19px;
+}
+.main {
+    height: 30px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-right: 19px;
+    padding-left: 19px;
+}
+.age {
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #d98192;
+    font-size: 18px;
+}
+.age::placeholder {
+    color: #d98192;
+}
+.weight {
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #d98192;
+    font-size: 18px;
+}
+.weight::placeholder {
+    color: #d98192;
+}
+.height {
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #d98192;
+    font-size: 18px;
+}
+.height::placeholder {
+    color: #d98192;
+}
+.result {
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 18px;
+}
+.result::placeholder {
+    color: #a72403;
+}
+.main {
+    height: 200px;
+}
+.btn {
+    width: 330px;
+    height: 100px;
+}
+.res {
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #000000;
+    font-size: 18px;
+}

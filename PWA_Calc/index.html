@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="style.css">
+        <title>PWA Calc</title>
+    </head>
+    <body>
+        
+        <div class="calculator">
+
+            <div class="header">
+                <p>Возраст<input id="a" type="text" placeholder="Возраст: 0,00" class="age" ></p>
+                <p>Вес<input id="b" type="text" placeholder="Вес: 0,00" class="weight" ></p>
+                <p>Рост<input id="c" type="text" placeholder="Рост: 0,00" class="height" ></p>
+            </div>
+
+            <!--<div class="rad">
+                <p>Пол:</p>
+                <p><input id="x1" name="r1" type="radio" value="man" checked>Мужчина</p>
+                <p><input id="x2" name="r1" type="radio" value="woman">Женщина</p>
+            </div>-->
+
+            <div class="main">
+                <input type="button" value="РЕЗУЛЬТАТ ПО ФОРМУЛЕ МАФФИНА-ДЖЕОРА" onClick="formula1();" class="btn">
+                <input type="button" value="РЕЗУЛЬТАТ ПО ФОРМУЛЕ ХАРРИСА-БЕНЕДИКТА" onClick="formula2();" class="btn">
+            </div>
+
+            <div class="res" id="resl"></div>
+
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
